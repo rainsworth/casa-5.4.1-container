@@ -24,5 +24,5 @@ Include: yum wget
   echo "Hello world!"
   casa-config --version
 # to run a casa script provided as an argument:
-# singularity run <container> <script> <arg>
-  exec casa - c "$@"
+# singularity run <container> <script> <args>
+  exec casa -c "$@"
