@@ -13,8 +13,8 @@ yum -y install build-essential curl git man vim autoconf libtool debootstrap squ
 
 # install CASA
 wget https://casa.nrao.edu/download/distro/linux/release/el7/casa-release-5.4.1-31.el7.tar.gz
-tar xf casa-release-4.4.0-el6.tar.gz
-cd casa-release-4.4.0-el6/bin
+tar xf casa-release-5.4.1-31.el7.tar.gz
+cd casa-release-5.4.1-31.el7/bin
 PATH='pwd':$PATH
 
 %environment
