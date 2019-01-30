@@ -10,6 +10,8 @@ Include: yum wget
   yum -y install https://centos7.iuscommunity.org/ius-release.rpm
   yum -y install nano
   yum -y install build-essential curl git man vim autoconf libtool debootstrap squashfs-tools
+  yum -y install qt-x11
+  yum -y install libXft
 
 # install CASA
   wget https://casa.nrao.edu/download/distro/linux/release/el7/casa-release-5.4.1-31.el7.tar.gz
